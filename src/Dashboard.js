@@ -9,8 +9,8 @@ class Dashboard extends React.Component{
         super(props);
         this.state={
             donations: [],
-            pollingCount: 0,
-            delay: 2000,
+            pollingCount: 10,
+            delay: 10,
             teamLeaders: [],
             oldDonations: [],
             bigDonation: null
